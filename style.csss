@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #0e0e0e;
+  color: #f5d042;
+}
+
+header, footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1c1c1c;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+main {
+  padding: 1rem;
+}
+
+#property-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.property-card {
+  background-color: #1c1c1c;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #f5d042;
+}
+
+input, textarea, button {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background-color: #f5d042;
+  color: #0e0e0e;
+  font-weight: bold;
+  cursor: pointer;
+}
