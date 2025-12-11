@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload Property</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-storage-compat.js"></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Upload Property</h1>
+  </header>
+  <main>
+    <form id="upload-form">
+      <input type="text" id="title" placeholder="Property Title" required>
+      <input type="text" id="location" placeholder="Location" required>
+      <input type="number" id="price" placeholder="Price" required>
+      <textarea id="description" placeholder="Description" required></textarea>
+      <input type="file" id="image" required>
+      <button type="submit">Upload</button>
+    </form>
+    <p id="status"></p>
+  </main>
+  <footer>
+    <p>© 2025 Henryz Homez</p>
+  </footer>
+</body>
+</html>
